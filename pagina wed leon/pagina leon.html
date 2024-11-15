@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página informativa sobre León, Nicaragua, la Catedral de León, los Hervideros de San Jacinto y la Virgen de La Merced">
+    <title>León, Nicaragua</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('pepo.jpg'); /* Ruta de la imagen de fondo */
+            background-size: cover; /* La imagen cubre toda la pantalla */
+            background-position: center; /* Centra la imagen */
+            background-attachment: fixed; /* La imagen no se mueve al hacer scroll */
+            background-color: #f4f4f9; /* Color de fondo como respaldo */
+        }
+
+        header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative; /* Necesario para posicionar el logo */
+            height: 100px; /* Ajuste de altura para mantener la barra estable */
+        }
+
+        /* Estilo del logo en la esquina izquierda */
+        header img {
+            position: absolute;
+            left: 20px; /* Ajuste para poner el logo en la esquina izquierda */
+            top: 50%;  /* Centramos el logo verticalmente */
+            transform: translateY(-50%); /* Ajuste fino para centrar el logo */
+            width: 50px; /* Tamaño reducido del logo */
+            height: auto; /* Mantiene la proporción */
+            z-index: 1000; /* Asegura que el logo esté por encima de otros elementos */
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        .highlight {
+            background-color: #f9c74f;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .highlight ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .highlight li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .highlight li::before {
+            content: "✔️";
+            position: absolute;
+            left: 0;
+        }
+
+        .catedral-img {
+            width: 30%; /* Ajusté el tamaño a un 30% del ancho original */
+            height: auto; /* Mantiene la proporción */
+            border-radius: 10px; /* Bordes redondeados */
+            margin-top: 20px;
+            display: block; /* Hace que la imagen se comporte como un bloque */
+            margin-left: auto; /* Centra la imagen */
+            margin-right: auto; /* Centra la imagen */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Logo en la esquina izquierda -->
+        <img src="logoleon.jpg" alt="Logo de León" />
+        <h1>León, Nicaragua</h1>
+    </header>
+
+    <div class="content">
+        <h2>¿Qué es León?</h2>
+        <p>León es una ciudad histórica ubicada en el occidente de Nicaragua, conocida por su arquitectura colonial, su vibrante vida cultural y su papel importante en la historia del país.</p>
+
+        <h2>Lugares de interés</h2>
+        <ul>
+            <li>Catedral de León</li>
+            <li>Ruinas de León Viejo</li>
+            <li>Volcán Cerro Negro</li>
+            <li>Plaza Central de León</li>
+        </ul>
+
+        <h2>La Virgen de La Merced - Patrona de León</h2>
+        <div class="merced-info">
+            <p>Fue hasta el <strong>17 de julio de 1912</strong> que el obispo Simeón Pereira y Castellón declaró “*PATRONA de la Ciudad de León” con el vivo deseo de que de esta manera se acreciera más su devoción. Este decreto fue emitido en esa fecha y citado por **Nicolás Buitrago Matus en su obra León, la sombra de Pedrarias* (Tomo I, Managua, Fundación Ortiz Gurdián, junio de 1998, pp. 127-128).</p>
+            
+            <p>Además, en el atrio de la iglesia de La Merced, el obispo Bosco Vivas colocó una gran placa conmemorativa** del centenario de la declaración del patronazgo de la Virgen de La Merced el 17 de julio de 2012. Esta placa es una elocuente prueba de la importancia de este evento en la historia de la ciudad.</p>
+
+            <p>A inicios del citado año de 1912, se desató la guerra civil conocida como la guerra de Mena. Durante este conflicto, los liberales menistas de León, que luchaban contra los conservadores, recibieron un apoyo muy peculiar: según una leyenda forjada en esa época, una Señora (a quien llamaron Chela) les repartía municiones que les faltaban para seguir combatiendo. Se dice que la Virgen de La Merced fue vista como una figura protectora que ayudaba a los liberales en su lucha.</p>
+
+            <p>El patronazgo de la Virgen de La Merced o de Las Mercedes, originaria de Barcelona hace ocho siglos, no tiene sus raíces en el siglo XVI ni en León Viejo, sino que es una tradición bastante reciente, de la segunda mitad del siglo XX. En 1918, cuando se celebraba el séptimo centenario de la aparición de la Virgen en Barcelona, el capellán de la iglesia de **La Merced** en León, Félix Pereira y Castellón, mandó colocar en la parte externa del templo diez u once placas de mármol alusivas a este magno acontecimiento. Estas placas fueron dedicadas por diversas autoridades civiles, militares y eclesiásticas.</p>
+
+            <p>El culto a la Virgen de La Merced fue enaltecido por el poeta y músico **Tino López Guerra** (1906-1967) a través de su célebre corrido, estrenado en febrero de 1949. En este corrido, él cantó:</p>
+            
+            <blockquote>
+                *"De Mercedes la Virgen Bendita / es la gran patroncita de León / que nos dio a la mujer más bonita / para que fuera un adorno en mi región."*
+            </blockquote>
+
+            <!-- Imagen de la Virgen de La Merced (tamaño mediano) -->
+            <img src="merced.jpg" alt="Virgen de La Merced" class="catedral-img" />
+
+        </div>
+
+        <h2>Catedral de León: Mitos y Realidades</h2>
+        <div class="catedral-info">
+            <p>La Catedral de León es uno de los edificios más emblemáticos de Nicaragua, con una rica historia y algunos mitos interesantes que la rodean. Uno de los mitos más conocidos es el de una serpiente gigante que supuestamente vive bajo la catedral. Sin embargo, este mito se originó debido a los antiguos senderos subterráneos que atraviesan la zona, usados en el pasado para escapar de los piratas que atacaban la ciudad.</p>
+
+            <p>En realidad, la Catedral de León está construida con una mezcla especial de materiales, como clara de huevo, cal y harina, que le da su característica pintura blanca que la hace tan visible desde lejos.</p>
+
+            <p>En su interior, se encuentran varios personajes históricos, entre ellos el poeta nicaragüense Rubén Darío, quien está vinculado con la catedral y la ciudad de León. Además, la catedral alberga un sótano con reliquias de santos, siendo la más reciente la del Beato Carlo Acutis. Cada miércoles por la tarde, se celebran misas en este lugar, en honor a estas reliquias.</p>
+
+            <p>Dentro de la catedral se encuentran varias imágenes religiosas de gran importancia para la comunidad católica, como:</p>
+            <ul>
+                <li>La Virgen de Cuapa</li>
+                <li>San Juan Pablo II</li>
+                <li>La Virgen de la Concepción</li>
+                <li>San Jerónimo</li>
+            </ul>
+
+            <!-- Imagen de la Catedral -->
+            <img src="catedraldeleon.jpg" alt="Catedral de León" class="catedral-img" />
+        </div>
+
+        <h2>Hervideros de San Jacinto</h2>
+        <div class="hervideros">
+            <p>Los Hervideros de San Jacinto son una impresionante área geotérmica ubicada a unos 30 minutos al norte de León. Este lugar es conocido por sus burbujeas de agua caliente que emergen de los suelos volcánicos, debido a la actividad geotérmica de la zona.</p>
+            <p>En los Hervideros, se pueden ver pequeñas fuentes de agua caliente, que emiten vapor y burbujeas, dando la sensación de que "hierve". Este fenómeno natural es fascinante para los visitantes, ya que es una muestra clara de la actividad volcánica que caracteriza a la región.</p>
+            <p>El lugar se encuentra en un entorno natural, rodeado de vegetación tropical y de fácil acceso. Además, es una excelente opción para aquellos interesados en el ecoturismo y las maravillas geotérmicas de Nicaragua.</p>
+
+            <!-- Imagen de los hervideros -->
+            <img src="hervideros.jpg" alt="Hervideros de San Jacinto" class="catedral-img" />
+
+            <h3>Cómo llegar a los Hervideros de San Jacinto</h3>
+            <p>Para llegar a los Hervideros, puedes tomar un transporte desde León hacia el municipio de La Paz Centro. Desde ahí, se sigue un camino rural que te llevará directamente a la zona de los hervideros. Es recomendable ir con un guía local para aprovechar al máximo la experiencia.</p>
+        </div>
+
+        <h2>Puntos importantes sobre los Hervideros de San Jacinto</h2>
+        <div class="highlight">
+            <ul>
+                <li>🌋 **Atractivo natural geotérmico**: Los Hervideros son un fenómeno geotérmico donde el agua burbujea debido a la actividad volcánica.</li>
+                <li>💧 **Burbujas de agua caliente**: Se pueden ver burbujas que emergen del suelo, dando la sensación de que el agua hierve.</li>
+                <li>🌿 **Ideal para ecoturismo**: Es un destino perfecto para los amantes de la naturaleza y el ecoturismo.</li>
+                <li>🚗 **Fácil acceso**: Está ubicado a tan solo 30 minutos de León, lo que lo hace de fácil acceso para turistas locales e internacionales.</li>
+            </ul>
+        </div>
+
+        <h2>Clima de León</h2>
+        <div class="clima">
+            <p>León goza de un clima cálido y único. Las temperaturas suelen ser altas durante todo el año, con un promedio de 30°C (86°F). La temporada de lluvias ocurre entre mayo y octubre, pero incluso durante esta época, las temperaturas son agradables debido a las brisas constantes.</p>
+            <p>Este clima cálido y tropical es ideal para disfrutar de sus paisajes naturales, su arquitectura colonial y las actividades al aire libre. León es un destino perfecto si buscas disfrutar de un clima constante y cálido durante todo el año.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Página informativa sobre León, Nicaragua</p>
+    </footer>
+</body>
+</html>
